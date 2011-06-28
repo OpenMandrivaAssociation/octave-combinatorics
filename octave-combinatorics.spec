@@ -14,7 +14,7 @@ Url:		http://octave.sourceforge.net/combinatorics/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Conflicts:	octave-forge <= 20090607
 Requires:	octave >= 2.9.7
-BuildRequires:	octave-devel >= 2.9.7
+BuildRequires:	octave-devel >= 2.9.7, MesaGL-devel, MesaGLU-devel
 
 %description
 Combinatorics functions for Octave.
